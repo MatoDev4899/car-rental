@@ -1,0 +1,46 @@
+<section class="p-16">
+  <div class="flex flex-col justify-between gap-7 lg:flex-row">
+    <div class="flex flex-col">
+      <h3 class="mb-6 text-xl font-black">Car Rental</h3>
+      <p class="w-72 mb-6">
+        We offers a big range of vehicles for all your driving needs. We have
+        the perfect car to meet your needs.
+      </p>
+      <p class="text-lg font-black">+421 948 173 872</p>
+      <p class="text-lg font-black">mato4899@gmail.com</p>
+    </div>
+    <div class="flex flex-col gap-3">
+      <h3 class="text-xl font-black mb-4">COMPANY</h3>
+      <p>New York</p>
+      <p>Careers</p>
+      <p>Mobile</p>
+      <p>Blog</p>
+      <p>How we work</p>
+    </div>
+    <div class="flex flex-col gap-2">
+      <h3 class="text-xl font-black mb-4">WORKING HOURS</h3>
+      <p>Mon - Fri: 9:00AM - 9:00PM</p>
+      <p>Sat: 9:00AM - 19:00PM</p>
+      <p>Sun: Closed</p>
+    </div>
+    <div class="flex flex-col">
+      <form class="w-80">
+        <h3 class="text-xl font-black mb-4">SUBSCRIPTION</h3>
+        <p class="w-80 mb-4">
+          Subscribe your Email address for latest news & updates.
+        </p>
+        <input
+          class="bg-gray-100 p-3 mb-2 w-80 text-center rounded-sm"
+          type="email"
+          placeholder="Enter Email Address"
+        />
+        <button
+          (click)="submitEmail($event)"
+          class="text-white p-3 bg-orange-600 hover:bg-orange-700 w-80 rounded-sm"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

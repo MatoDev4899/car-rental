@@ -1,0 +1,33 @@
+<header class="p-8 z-20">
+  <img src="assets/images/bg.png" alt="" class="absolute right-0 top-0 -z-10" />
+  <nav class="flex justify-between items-center">
+    <img class="h-10" src="assets/images/logo.png" alt="" />
+    <div class="hidden lg:block">
+      <ul class="flex gap-4 z-20">
+        <li *ngFor="let link of links" class="z-20">
+          <a class="font-bold" routerLink="{{ link.route }}">{{ link.name }}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="z-20 hidden lg:block">
+      <a class="mr-3" href="">Sign In</a>
+      <a href="">Register</a>
+    </div>
+    <div class="flex items-center justify-end lg:hidden">
+      <button class="p-2 focus:outline-none">
+        <svg
+          class="w-8 h-8"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 12h18M3 6h18M3 18h18"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+</header>

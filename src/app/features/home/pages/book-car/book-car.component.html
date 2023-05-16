@@ -1,0 +1,59 @@
+<section class="bg-gradient-to-b from-gray-100 to-white z-10">
+  <div class="p-8 flex flex-col z-20 bg-white shadow-2xl">
+    <h3 class="text-xl font-black mb-4">Book a car</h3>
+    <form class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 z-20">
+      <div class="flex flex-col">
+        <label
+          ><fa-icon [icon]="carIcon"></fa-icon> Select Your Car Type *
+        </label>
+        <select class="p-3">
+          <option>Select your car type</option>
+          <option value="Audi A1 S-Line">Audi A1 S-Line</option>
+          <option value="VW Golf 6">VW Golf 6</option>
+          <option value="Toyota Camry">Toyota Camry</option>
+          <option value="BMW 320 ModernLine">BMW 320 ModernLine</option>
+          <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
+          <option value="VW Passat CC">VW Passat CC</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col">
+        <label><fa-icon [icon]="marker"></fa-icon> Pick-up *</label>
+        <select class="p-3">
+          <option>Select pick up location</option>
+          <option>Bratislava</option>
+          <option>Vienna</option>
+          <option>Trencin</option>
+          <option>Zilina</option>
+          <option>Kosice</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col">
+        <label><fa-icon [icon]="marker"></fa-icon> Drop off * </label>
+        <select class="p-3">
+          <option>Select drop off location</option>
+          <option>Bratislava</option>
+          <option>Vienna</option>
+          <option>Trencin</option>
+          <option>Zilina</option>
+          <option>Kosice</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col">
+        <label><fa-icon [icon]="dateIcon"></fa-icon> pick up date * </label>
+        <input type="date" />
+      </div>
+
+      <div class="flex flex-col">
+        <label><fa-icon [icon]="dateIcon"></fa-icon> Drop off date * </label>
+        <input type="date" />
+      </div>
+
+      <button class="text-white p-3 bg-orange-600 hover:bg-orange-700">
+        Search
+      </button>
+    </form>
+  </div>
+</section>
