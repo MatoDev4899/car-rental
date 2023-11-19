@@ -1,8 +1,11 @@
 <div class="container">
   <app-hero></app-hero>
-  <app-book-car></app-book-car>
+  <app-book-car [cars]="cars$" id="book-car"></app-book-car>
   <app-plan-trip></app-plan-trip>
-  <app-pick-car></app-pick-car>
+  <app-pick-car
+    (reserveCar)="onReserveClick($event)"
+    [cars]="cars$"
+  ></app-pick-car>
 </div>
 <app-banner></app-banner>
 <div class="container bg-gray-100">

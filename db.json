@@ -1,0 +1,59 @@
+{
+  "cars": [
+    {
+      "name": "Audi A5 S-line",
+      "imagePath": "assets/images/cars/audi.png",
+      "brand": "Audi",
+      "make": "A5",
+      "year": 2015,
+      "ac": "Yes",
+      "transmission": "Automatic",
+      "fuel": "Diesel",
+      "price": 45
+    },
+    {
+      "name": "BMW 320d",
+      "imagePath": "assets/images/cars/bmw.png",
+      "brand": "BMW",
+      "make": "320d",
+      "year": 2014,
+      "ac": "Yes",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "price": 40
+    },
+    {
+      "name": "VW Golf V",
+      "imagePath": "assets/images/cars/vw.png",
+      "brand": "Volkswagen",
+      "make": "Golf V",
+      "year": 2018,
+      "ac": "Yes",
+      "transmission": "Manual",
+      "fuel": "Petrol",
+      "price": 35
+    },
+    {
+      "name": "Mercedes",
+      "imagePath": "assets/images/cars/mercedes.webp",
+      "brand": "Mercedes",
+      "make": "GLE",
+      "year": 2020,
+      "ac": "Yes",
+      "transmission": "Automatic",
+      "fuel": "Diesel",
+      "price": 70
+    },
+    {
+      "name": "Skoda Superb",
+      "imagePath": "assets/images/cars/skoda.png",
+      "brand": "Skoda",
+      "make": "Superb",
+      "year": 2011,
+      "ac": "No",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "price": 25
+    }
+  ]
+}

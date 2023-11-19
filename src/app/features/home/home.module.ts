@@ -12,6 +12,8 @@ import { DownloadComponent } from './pages/download/download.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from 'src/app/shared/components/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { DropdownModule } from 'primeng/dropdown';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { FooterComponent } from 'src/app/shared/components/footer/footer.compone
     HomeRoutingModule,
     FontAwesomeModule,
     ReactiveFormsModule,
+    FormsModule,
+    DropdownModule,
   ],
 })
 export class HomeModule {}
